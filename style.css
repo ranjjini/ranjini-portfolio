@@ -93,3 +93,85 @@ a:hover {
   color: #ff6f61; /* Change link color on hover */
 }
 
+/* New styles for sections and list items */
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+section p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Styles for the header */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Styles for the navigation */
+nav ul {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #0056b3;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
